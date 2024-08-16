@@ -1,0 +1,26 @@
+body{
+  background-color: #222;
+}
+.navbar-brand img{
+  width: 40px;
+}
+.delete-button{
+  border: 0;
+  background-color: red;
+  border-radius: 3px;
+  padding: 0.5rem;
+  width: 50px;
+}
+.delete-button:hover{
+  background-color: yellow;
+  transition: all ease-in 0.5s;
+}
+/* .delete-button:focus{
+  color: white;
+  background-color: blue;
+} */
+@media (max-width: 480px){
+  .navbar-brand img{
+    display: none;
+  }
+}
